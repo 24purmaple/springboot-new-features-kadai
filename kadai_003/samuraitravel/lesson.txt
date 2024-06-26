@@ -1,0 +1,9 @@
+18章のWebSecurityConfig.javaのところ（18-5）
+13章サービスクラスの話
+インターフェースとリポジトリの違い　どちらもメソッドの集合体なのでは？
+マッピングのニュアンスが分かりにくい　AがBに紐づくも怪しい
+
+reservations/index.html ホーム > 予約一覧 になってほしいところが ホーム予約一覧> になってる
+
+@RequestBody
+@RequestHeader
