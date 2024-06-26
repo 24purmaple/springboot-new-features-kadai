@@ -27,7 +27,7 @@
 							
 							<h1 class="mb-4 text-center" th:text="${house.getName() + 'のレビュー投稿'}"></h1>
 							
-							<form method="post" th:action="@{/houses/${house.getId()}/reviews/create}" th:object="${reviewRegisterForm}">
+							<form method="post" th:action="@{/houses/__${house.getId()}__/reviews/create}" th:object="${reviewRegisterForm}">
 								
 								<div class="form-group row mb-3">
 									<div class="col-md-3">
