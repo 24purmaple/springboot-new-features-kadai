@@ -1,0 +1,20 @@
+18章のWebSecurityConfig.javaのところ（18-5）
+13章サービスクラスの話
+インターフェースとリポジトリの違い　どちらもメソッドの集合体なのでは？
+マッピングのニュアンスが分かりにくい　AがBに紐づくも怪しい
+
+reservations/index.html ホーム > 予約一覧 になってほしいところが ホーム予約一覧> になってる
+
+@RequestBody
+@RequestHeader
+
+<div th:if="${#lists.isEmpty(favoritePage)}" class="mb-4">
+<p class="text-center">まだお気に入りに登録している民宿がありません。</p>
+</div>
+favorites/indexでやろうとした
+どうやったらうまくいく？
+
+houses/showのやつを参考↓
+<div th:if="${#lists.isEmpty(newReviews)}" class="mb-4">
+<p class="text-center">まだレビューがありません。</p>
+</div>
